@@ -5567,6 +5567,12 @@
 		(uuid "0abbf2be-a228-43ff-b65d-97d4cd8960ec")
 	)
 	(junction
+		(at 132.08 132.08)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "14681c44-7776-4c82-96f9-6e2b47c46bca")
+	)
+	(junction
 		(at 170.18 100.33)
 		(diameter 0)
 		(color 255 0 0 1)
@@ -5609,6 +5615,18 @@
 		(uuid "634465fe-cffa-4145-8bd6-a9f8104c7de0")
 	)
 	(junction
+		(at 132.08 109.22)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "685a55db-0c82-471a-b41a-abf3c2d661c4")
+	)
+	(junction
+		(at 138.43 132.08)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "6cbde03f-ccc8-4d69-a36a-bf39cd9c27e3")
+	)
+	(junction
 		(at 226.06 119.38)
 		(diameter 0)
 		(color 0 0 0 1)
@@ -5637,24 +5655,6 @@
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "caad6a43-8a7f-48fc-b147-a9f436f81a69")
-	)
-	(junction
-		(at 138.43 132.08)
-		(diameter 0)
-		(color 0 0 0 1)
-		(uuid "ce3b8ec2-c9ec-4f7f-b1a8-efa5ad34fe43")
-	)
-	(junction
-		(at 132.08 132.08)
-		(diameter 0)
-		(color 0 0 0 1)
-		(uuid "d26084e3-ccc9-4185-85d8-024bd39b658f")
-	)
-	(junction
-		(at 132.08 106.68)
-		(diameter 0)
-		(color 255 0 0 1)
-		(uuid "d9680288-140d-4976-bcee-c9c9784b61c4")
 	)
 	(no_connect
 		(at 101.6 99.06)
@@ -5909,6 +5909,17 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 132.08) (xy 146.05 132.08)
+		)
+		(stroke
+			(width 0.0381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "200cdebc-a45f-4d35-911a-f287aba5dfc2")
+	)
+	(wire
+		(pts
 			(xy 101.6 104.14) (xy 101.6 109.22)
 		)
 		(stroke
@@ -5931,7 +5942,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 102.87) (xy 132.08 106.68)
+			(xy 132.08 102.87) (xy 132.08 109.22)
 		)
 		(stroke
 			(width 0.0381)
@@ -5994,6 +6005,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "288663cf-6afb-443b-9c94-fc437f1d457a")
+	)
+	(wire
+		(pts
+			(xy 132.08 132.08) (xy 138.43 132.08)
+		)
+		(stroke
+			(width 0.0381)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "2b0c180e-0f93-442e-8057-86de2c03c63e")
 	)
 	(wire
 		(pts
@@ -6193,17 +6215,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 106.68) (xy 138.43 106.68)
-		)
-		(stroke
-			(width 0.0381)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "63654a61-61f0-48b0-a691-664aae9a254d")
-	)
-	(wire
-		(pts
 			(xy 226.06 119.38) (xy 226.06 132.08)
 		)
 		(stroke
@@ -6332,6 +6343,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "8d7e7718-7014-44e5-961d-dfcdb5aab98b")
+	)
+	(wire
+		(pts
+			(xy 132.08 109.22) (xy 138.43 109.22)
+		)
+		(stroke
+			(width 0.0381)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "8fead9bc-e88c-4834-8212-3518ed09913a")
 	)
 	(wire
 		(pts
@@ -6697,17 +6719,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 132.08) (xy 146.05 132.08)
-		)
-		(stroke
-			(width 0.0381)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "e81b8f7f-88bc-480a-9e72-4a99adf13501")
-	)
-	(wire
-		(pts
 			(xy 146.05 97.79) (xy 146.05 121.92)
 		)
 		(stroke
@@ -6793,17 +6804,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "f4571c39-67b1-483a-a338-3c1356791ef1")
-	)
-	(wire
-		(pts
-			(xy 132.08 132.08) (xy 138.43 132.08)
-		)
-		(stroke
-			(width 0.0381)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "f666c446-1f6e-4982-9eb5-4d740c7a1622")
 	)
 	(wire
 		(pts
@@ -7256,6 +7256,97 @@
 			(project "Purjevene_sahko"
 				(path "/fa8154a1-633c-496c-a84e-2f05ab50ac1f"
 					(reference "Chrg1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 132.08 128.27 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2a245066-c01a-4897-8b1c-72e45d7dceb4")
+		(property "Reference" "D9"
+			(at 133.604 137.668 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Sisätila LED"
+			(at 131.064 141.478 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 132.08 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 132.08 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e85d7af3-14d5-4777-b9ff-87bc1853ff30")
+		)
+		(pin "2"
+			(uuid "081f4004-2ba5-40d2-bce2-048c19f7e675")
+		)
+		(instances
+			(project "Purjevene_sahko"
+				(path "/fa8154a1-633c-496c-a84e-2f05ab50ac1f"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -7911,8 +8002,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DIP_x01")
-		(at 138.43 114.3 90)
+		(lib_id "Device:LED")
+		(at 138.43 128.27 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7921,9 +8012,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6e2f686b-6014-4d24-ac14-7ac5b21b6a53")
-		(property "Reference" "SW4"
-			(at 143.764 114.3 0)
+		(uuid "6cd81340-483a-472c-8326-762559fda7d6")
+		(property "Reference" "D10"
+			(at 139.954 137.922 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7932,8 +8023,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 145.542 114.3 0)
+		(property "Value" "Sisätila_Kaula LED"
+			(at 137.414 143.002 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7943,7 +8034,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 114.3 0)
+			(at 138.43 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7954,7 +8045,98 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 114.3 0)
+			(at 138.43 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 138.43 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 138.43 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0ebbe92-0cce-4790-a021-c9beea442e8c")
+		)
+		(pin "2"
+			(uuid "2fde18df-251d-49f4-ad00-46577731f3e6")
+		)
+		(instances
+			(project "Purjevene_sahko"
+				(path "/fa8154a1-633c-496c-a84e-2f05ab50ac1f"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DIP_x01")
+		(at 138.43 116.84 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6e2f686b-6014-4d24-ac14-7ac5b21b6a53")
+		(property "Reference" "SW4"
+			(at 143.764 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 145.542 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7965,7 +8147,7 @@
 			)
 		)
 		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 138.43 114.3 0)
+			(at 138.43 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8175,88 +8357,6 @@
 			(project "Purjevene_sahko"
 				(path "/fa8154a1-633c-496c-a84e-2f05ab50ac1f"
 					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Lamp")
-		(at 132.08 127 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "95fc8aa8-c844-4880-a5d1-5118c6ed0786")
-		(property "Reference" "LA1"
-			(at 133.35 134.366 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Sisätila Lamp"
-			(at 130.81 134.366 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Lamp"
-			(at 132.08 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6f5a52ac-3caf-40c8-ba83-b86f314569df")
-		)
-		(pin "1"
-			(uuid "0e33a386-2533-42b7-bdf6-44f3dcfb3442")
-		)
-		(instances
-			(project "Purjevene_sahko"
-				(path "/fa8154a1-633c-496c-a84e-2f05ab50ac1f"
-					(reference "LA1")
 					(unit 1)
 				)
 			)
@@ -8761,7 +8861,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x01")
-		(at 132.08 114.3 90)
+		(at 132.08 116.84 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -8773,7 +8873,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7504647-42ab-48de-ab5f-1841b0a9fdc9")
 		(property "Reference" "SW3"
-			(at 124.46 114.3 0)
+			(at 124.46 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8783,7 +8883,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 127 114.3 0)
+			(at 127 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8793,7 +8893,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 114.3 0)
+			(at 132.08 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8804,7 +8904,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 114.3 0)
+			(at 132.08 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8815,7 +8915,7 @@
 			)
 		)
 		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 132.08 114.3 0)
+			(at 132.08 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8835,88 +8935,6 @@
 			(project "Purjevene_sahko"
 				(path "/fa8154a1-633c-496c-a84e-2f05ab50ac1f"
 					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Lamp")
-		(at 138.43 127 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f8798a78-f1bc-4d35-93d5-f0098ad738d5")
-		(property "Reference" "LA2"
-			(at 139.7 134.366 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Sisä_keula Lamp"
-			(at 137.16 134.366 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Lamp"
-			(at 138.43 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1242968a-90a1-4382-855e-ae72a4b0ecfa")
-		)
-		(pin "1"
-			(uuid "070a4192-ce1d-4763-ac12-6c9ec6d66de5")
-		)
-		(instances
-			(project "Purjevene_sahko"
-				(path "/fa8154a1-633c-496c-a84e-2f05ab50ac1f"
-					(reference "LA2")
 					(unit 1)
 				)
 			)
