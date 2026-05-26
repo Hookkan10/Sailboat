@@ -217,7 +217,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "V2.0"
+      "sch_revision": "V2.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -485,13 +485,14 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -645,7 +646,7 @@
         "uuid": "fa8154a1-633c-496c-a84e-2f05ab50ac1f"
       }
     ],
-    "used_designators": "F7",
+    "used_designators": "F7,SW2,Y1,R2",
     "variants": []
   },
   "sheets": [
