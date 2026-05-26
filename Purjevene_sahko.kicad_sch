@@ -1189,159 +1189,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Fuse_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "F"
-				(at 0 -1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fuse_Small"
-				(at 0 1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Fuse, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Fuse_Small_0_1"
-				(rectangle
-					(start -1.27 0.508)
-					(end 1.27 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -2223,6 +2070,202 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Own:CircuitBreaker_2P"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CB1"
+				(at 3.81 1.2701 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CircuitBreaker_2P"
+				(at 3.81 -1.2699 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Double pole circuit breaker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "CB 2P"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CircuitBreaker_2P_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -0.254 1.27) (xy 1.27 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -0.254 -1.27) (xy 1.27 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CircuitBreaker_2P_1_1"
+				(polyline
+					(pts
+						(xy 0.762 -0.762) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0.0508)
+						(type dot)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Circuit Breaker"
+					(at 0.254 -2.286 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5436,7 +5479,7 @@
 		)
 	)
 	(rectangle
-		(start 91.44 33.02)
+		(start 88.138 30.48)
 		(end 175.26 63.5)
 		(stroke
 			(width 0)
@@ -5540,8 +5583,8 @@
 	)
 	(text_box "Chargers"
 		(exclude_from_sim no)
-		(at 91.44 33.02 0)
-		(size 13.97 3.81)
+		(at 88.138 30.48 0)
+		(size 9.652 3.9483)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -5986,7 +6029,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 49.53) (xy 104.14 49.53)
+			(xy 91.44 49.53) (xy 96.52 49.53)
 		)
 		(stroke
 			(width 0.0381)
@@ -6146,6 +6189,17 @@
 			(color 0 0 0 1)
 		)
 		(uuid "4e51b1d2-3fed-40ec-a2b5-2b384f7dbe6e")
+	)
+	(wire
+		(pts
+			(xy 91.44 39.37) (xy 96.52 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "4fd6c6e3-ddde-4b56-969a-6527435738e8")
 	)
 	(wire
 		(pts
@@ -6388,6 +6442,17 @@
 		)
 		(uuid "9dc2bc2d-57c1-46c4-b7f5-3e3b5f01c8e0")
 	)
+	(wire
+		(pts
+			(xy 96.52 39.37) (xy 96.52 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "a07e07f9-c024-4ed5-8ec1-59428968a9ae")
+	)
 	(bus
 		(pts
 			(xy 97.79 96.52) (xy 97.79 101.6)
@@ -6398,17 +6463,6 @@
 			(color 255 0 0 1)
 		)
 		(uuid "a0947c79-aa45-4cc2-9e5b-1480c992414d")
-	)
-	(wire
-		(pts
-			(xy 104.14 39.37) (xy 97.79 39.37)
-		)
-		(stroke
-			(width 0.0381)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "a8c55883-595a-4838-8cf0-3cb69e53de50")
 	)
 	(wire
 		(pts
@@ -6478,17 +6532,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 43.18) (xy 104.14 39.37)
-		)
-		(stroke
-			(width 0.0381)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "b4ae53a0-4b23-4d27-abd1-d37c7e7cc234")
-	)
-	(wire
-		(pts
 			(xy 151.13 95.25) (xy 194.31 95.25)
 		)
 		(stroke
@@ -6555,7 +6598,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 43.18) (xy 123.19 43.18)
+			(xy 121.92 43.18) (xy 128.27 43.18)
 		)
 		(stroke
 			(width 0.0381)
@@ -6686,7 +6729,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 49.53) (xy 104.14 45.72)
+			(xy 96.52 49.53) (xy 96.52 45.72)
 		)
 		(stroke
 			(width 0.0381)
@@ -6827,84 +6870,16 @@
 		)
 		(uuid "f93dab1b-68be-429c-b791-662c2a9bd02d")
 	)
-	(symbol
-		(lib_id "Device:Fuse_Small")
-		(at 171.45 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "01c691d4-2383-403d-87e3-b1ca751770ac")
-		(property "Reference" "F9"
-			(at 171.45 40.894 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
+	(wire
+		(pts
+			(xy 168.91 43.18) (xy 173.99 43.18)
 		)
-		(property "Value" "5A Fuse"
-			(at 171.45 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
+		(stroke
+			(width 0.0381)
+			(type default)
+			(color 255 0 0 1)
 		)
-		(property "Footprint" ""
-			(at 171.45 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fuse, small symbol"
-			(at 171.45 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ee4333cc-367a-456c-bc69-131186f2ca96")
-		)
-		(pin "1"
-			(uuid "8f245f5b-f3ef-4da5-bf26-464c4b9a6f78")
-		)
-		(instances
-			(project "Purjevene_sahko"
-				(path "/fa8154a1-633c-496c-a84e-2f05ab50ac1f"
-					(reference "F9")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "fa389da6-4841-4d12-9b53-b8d5a33dea1d")
 	)
 	(symbol
 		(lib_id "Device:Fuse")
@@ -7676,85 +7651,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse_Small")
-		(at 125.73 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "55bd58a4-2fb9-411f-9651-7ce637d8172f")
-		(property "Reference" "F8"
-			(at 125.73 40.894 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Value" "7.5A Fuse"
-			(at 125.73 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fuse, small symbol"
-			(at 125.73 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c143fc88-56c2-4fdb-aacd-254463dbe2ff")
-		)
-		(pin "1"
-			(uuid "d7f2febd-0587-47b5-aa42-daa1b24e8f57")
-		)
-		(instances
-			(project "Purjevene_sahko"
-				(path "/fa8154a1-633c-496c-a84e-2f05ab50ac1f"
-					(reference "F8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Own:Depth_sensor")
 		(at 212.09 109.22 0)
 		(unit 1)
@@ -8364,7 +8260,7 @@
 	)
 	(symbol
 		(lib_id "Device:Solar_Cells")
-		(at 97.79 44.45 0)
+		(at 91.44 44.45 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8373,10 +8269,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9ea9699d-c775-46da-bb2c-e41a09c91df5")
 		(property "Reference" "SC1"
-			(at 93.98 42.5449 0)
+			(at 93.472 51.816 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8387,7 +8282,7 @@
 			)
 		)
 		(property "Value" "Solar_Cells 24V"
-			(at 93.98 45.0849 0)
+			(at 96.52 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8398,7 +8293,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 42.926 90)
+			(at 91.44 42.926 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8409,7 +8304,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 42.926 90)
+			(at 91.44 42.926 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8420,7 +8315,7 @@
 			)
 		)
 		(property "Description" "Multiple solar cells"
-			(at 97.79 44.45 0)
+			(at 91.44 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8685,6 +8580,96 @@
 			(project "Purjevene_sahko"
 				(path "/fa8154a1-633c-496c-a84e-2f05ab50ac1f"
 					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Own:CircuitBreaker_2P")
+		(at 100.33 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c68b5069-a22b-4550-a7fa-7748f6b93a81")
+		(property "Reference" "CB1"
+			(at 104.14 43.1799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CircuitBreaker_2P"
+			(at 104.14 45.7199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Double pole circuit breaker"
+			(at 100.33 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "f2608aa7-d005-4f10-bda4-0bbb1c59bf3c")
+		)
+		(pin ""
+			(uuid "f96c4462-4aad-44f6-bf85-39ed267d179f")
+		)
+		(pin ""
+			(uuid "44cd1be3-e50b-4a26-99be-b0e626ccef2a")
+		)
+		(pin ""
+			(uuid "af9ed9c0-790c-42f9-9464-981f83cced3b")
+		)
+		(instances
+			(project "Purjevene_sahko"
+				(path "/fa8154a1-633c-496c-a84e-2f05ab50ac1f"
+					(reference "CB1")
 					(unit 1)
 				)
 			)
